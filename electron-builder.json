@@ -1,0 +1,25 @@
+{
+    "appId": "com.n-ziermann.OneRx",
+    "files": [
+        "dist-react",
+        "dist-electron"
+    ],
+    "icon": "./icon.png",
+    "mac": {
+        "target": [
+            "dmg"
+        ]
+    },
+    "win": {
+        "target": [
+            "portable",
+            "nsis"
+        ]
+    },
+    "linux": {
+        "target": [
+            "AppImage"
+        ],
+        "category": "Utility"
+    }
+}
